@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { MoivesModule } from './moives/moives.module';
-import { AppController } from './app/app.controller';
+import { MoivesModule } from './movies/moives.module';
+import { AppController } from './movies/app.controller';
 
 @Module({
   imports: [MoivesModule],
